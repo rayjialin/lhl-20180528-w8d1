@@ -15,9 +15,9 @@ extension Droplet {
         }
 
         // Respond to curl localhost:8080/hi
-        // with "Hello, world!\n"
+        // with "Hi, world!\n"
         get("hi") { req in
-            return "Hello, world!\n"
+            return "Hi, world!\n"
         }
 
         // Respond to curl localhost:8080/description
